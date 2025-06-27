@@ -9,3 +9,10 @@ divan = "0.1"
 [[bench]]
 name = "gather"
 harness = false
+
+[[bench]]
+name = "isnan"
+harness = false
+
+[dependencies]
+multiversion = "0.8.0"

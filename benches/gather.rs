@@ -1,5 +1,4 @@
 use divan::Bencher;
-use std::mem::MaybeUninit;
 
 #[divan::bench(sample_count = 1000)]
 pub fn bench_scalar(bencher: Bencher) {
